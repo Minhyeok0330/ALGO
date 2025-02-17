@@ -6,5 +6,3 @@ def solution(str1, str2):
     else:
         answer = 2
     return answer
-
-print(solution("6CD", "6CD"))

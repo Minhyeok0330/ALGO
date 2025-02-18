@@ -1,8 +1,8 @@
-def solution(numbers):
-    n =len(numbers)
-
-    for i in range(n):
-        for j in range(0, n-i+1):
-            if numbers[j] > numbers[j + 1]
-
-print(solution([4,2,5,2]))
+def solution(my_string):
+   answer = []
+    
+    for chrt in my_string:
+        if chrt not in 'aeiou':
+            answer.append(chrt)
+        
+    return ('',join.(answer))

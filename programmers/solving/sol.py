@@ -1,10 +1,8 @@
-def solution(my_string):
-    answer = 0
-    
-    for char in my_string:
-        try: 
-         answer += int(char)
-        except:
-            continue
-       
-    return answer
+def solution(numbers):
+    n =len(numbers)
+
+    for i in range(n):
+        for j in range(0, n-i+1):
+            if numbers[j] > numbers[j + 1]
+
+print(solution([4,2,5,2]))

@@ -1,10 +1,14 @@
-def solution(array):
-   
-    array.sort()
-    total = len(array)
-
+def solution(rsp):
+    answer = {  # ✅ 들여쓰기 수정
+        '2': '0',
+        '5': '2',
+        '0': '5'
+    }
     
-    return array[total // 2]
-    
+    result = []  # ✅ 들여쓰기 수정
+    for i in rsp:
+        result.append(answer[i])  # ✅ 리스트에 추가
 
-solution([1, 2, 7, 10, 11])
+    return ''.join(result)  # ✅ 문자열로 변환하여 반환
+
+print(solution('250'))

@@ -1,6 +1,6 @@
 def solution(my_string, n):
-    answer = ''
-    return answer
+    answer = ""
+    for alphabet in my_string:
+        answer = answer + alphabet * n
 
-print()
-new
+    return(answer)        

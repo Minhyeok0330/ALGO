@@ -4,3 +4,4 @@ def solution(my_string, n):
         answer = answer + alphabet * n
 
     return(answer)        
+psolving to hard

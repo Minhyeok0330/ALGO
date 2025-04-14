@@ -1,10 +1,19 @@
-def solution(before, after):
+def solution(numbers):
     answer = 0
-    for char in before:
-        if char in after:
-            answer += 1
-        if len(after) == answer:
-            return 1
-        else:
-            return 0
+    dict = {
+        'zero':0,
+        'one':1,
+        'two':2,
+        'three':3,
+        'four':4,
+        'five':5,
+        'six':6,
+        'seven':7,
+        'eight':8,
+        'nine':9
+    }
+    return ''.join(dict[number] for number in numbers)
 
+
+
+print(solution('onetwothreefour'))

@@ -17,3 +17,4 @@ def solution(numbers):
 project so hard
 
 print(solution('onetwothreefour'))
+프로젝트 진행 중 shopping mood
